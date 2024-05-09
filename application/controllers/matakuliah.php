@@ -1,6 +1,9 @@
 <?php
 class Matakuliah extends CI_Controller
 {
+    public function test(){
+        echo 'hallo';
+    }
     public function index()
     {
         $this->load->view('view-form-matakuliah');
